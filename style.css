@@ -1,9 +1,14 @@
+html, body {
+	font-size: 16px;
+}
+
 html {
 	background: url(bg.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: "Lato", sans-serif;
 }
 
 a, a:visited {
@@ -20,8 +25,10 @@ a:hover {
 	position: fixed;
 	right: 42px;
 	bottom: 42px;
-	font-size: 3em;
 	text-align: right;
+	font-size: 3rem;
+	letter-spacing: .013em;
+	line-height: 1.125;
 }
 
 .headline {
@@ -30,11 +37,11 @@ a:hover {
 }
 
 .headline .smaller {
-	font-size: 0.7em;
+	font-size: 2rem;
 }
 
 .content-container a {
-	font-size: 0.8em;
+	font-size: 2.5rem;
 }
 
 .lato-thin {
